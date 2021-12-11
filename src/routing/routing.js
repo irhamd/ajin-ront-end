@@ -20,7 +20,8 @@ import { ubahText } from '../services/Crypto';
 // import InputPengaduanPasien from '../../MPP/InputPengaduanPasien'
 import ProtectedRoute from '../services/Route/ProtectedRoute'
 import { globalText } from '../services/Text/GlobalText';
-
+import KabupatenKota from '../pages/Master/KabupatenKota/KabupatenKota'
+import Kecamatan from '../pages/Master/Kecamatan/Kecamatan';
 
 function Routing() {
     const c404 = () => {
@@ -59,6 +60,8 @@ function Routing() {
                     <Route path="/SurveyBahanPenting" component={SurveyBahanPenting} />
                     <Route path="/SurveyBahanPokok" component={SurveyBahanPokok} />
                     <Route path="/InputMatakuliah" component={InputMatakuliah} />
+                    <Route path="/KabupatenKota" component={KabupatenKota} />
+                    <Route path="/Kecamatan" component={Kecamatan} />
                     <Route path="*" exact component={() => c404()} />
 
                 </Switch>

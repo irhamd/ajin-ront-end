@@ -61,8 +61,8 @@ function _Header() {
 
 
         <SubMenu key="sub1" icon={<DatabaseOutlined />} title="Data Master">
-          <Item icon={<AlignRightOutlined />} key="sub1-1">Kabupaten / Kota</Item>
-          <Item icon={<AlignRightOutlined />} key="sub1-2">Kecamatan</Item>
+          <Item icon={<AlignRightOutlined />} key="sub1-1"><Link to="KabupatenKota" > Kabupaten / Kota </Link></Item>
+          <Item icon={<AlignRightOutlined />} key="sub1-2"><Link to="Kecamatan" > Kecamatan </Link></Item>
           <Item icon={<AlignRightOutlined />} key="sub1-3">Desa / Kelurahan</Item>
           <Item icon={<AlignRightOutlined />} key="sub1-4">Pasar</Item>
           <Item icon={<AlignRightOutlined />} key="sub1-5">Petugas Pasar</Item>
